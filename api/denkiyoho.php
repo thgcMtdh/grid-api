@@ -113,6 +113,10 @@ function validateAreaQuery($area) {
     return filter_var($area, FILTER_VALIDATE_INT, ['options' => ['min_range' => 1, 'max_range' => 10]]);
 }
 
+// CORS許可
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Methods: GET");
+
 // クエリパラメータを取得
 $areaQuery = isset($_GET['area']) ? $_GET['area'] : null;
 

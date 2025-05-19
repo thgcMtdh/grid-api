@@ -5,6 +5,10 @@ const DOWNLOAD_URL = "https://web-kohyo.occto.or.jp/kks-web-public/download/down
 // デフォルトの形式をセットしておく
 header('Content-Type: text/plain');
 
+// CORS許可
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Methods: GET");
+
 // クエリパラメータを取得
 $jhSybt     = isset($_GET['jhSybt'])     ? $_GET['jhSybt']     : '';
 $tgtYmdFrom = isset($_GET['tgtYmdFrom']) ? $_GET['tgtYmdFrom'] : '';
