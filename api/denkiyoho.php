@@ -113,6 +113,9 @@ function validateAreaQuery($area) {
     return filter_var($area, FILTER_VALIDATE_INT, ['options' => ['min_range' => 1, 'max_range' => 10]]);
 }
 
+// デフォルトの形式をセットしておく
+header('Content-Type: text/plain');
+
 // CORS許可
 header('Access-Control-Allow-Origin: *');
 header("Access-Control-Allow-Methods: GET");
