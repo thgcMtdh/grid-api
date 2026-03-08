@@ -75,7 +75,7 @@ function createCsvDownloadUrl($area) {
         case 5: // 北陸
             return "https://www.rikuden.co.jp/nw/denki-yoho/csv/juyo_05_" . $datestr . ".csv";
         case 6: // 関西
-            return "https://www.kansai-td.co.jp/yamasou/juyo1_kansai.csv";
+            return "https://www.kansai-td.co.jp/yamasou/juyo_06_" . $datestr . ".csv";
         case 7: // 中国
             return "https://www.energia.co.jp/nw/jukyuu/sys/juyo_07_" . $datestr . ".csv";
         case 8: // 四国
