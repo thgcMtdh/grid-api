@@ -128,7 +128,7 @@ UTF-8 エンコーディングの CSVファイルを返す。
 ```
 / (document root)
 ├ api/
-  ├ data/  ここに一度取得したデータを溜めておく
+  ├ data/  ここに一度取得したデータがキャッシュされる
   |  └ chinaiKikanJisseki/
   |    ├ xxx.csv
   ├ chinaiKikanJisseki.php
