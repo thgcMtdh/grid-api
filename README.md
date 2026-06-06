@@ -31,7 +31,7 @@
 #### エンドポイント
 
 ```
-https://powerflowmap.shikiblog.link/api/denkiyoho.php?area=xxx
+https://shikiblog.sakura.ne.jp/powerflowmap/api/denkiyoho.php?area=xxx
 ```
 - メソッド: `GET`
 - クエリ:
@@ -42,7 +42,7 @@ https://powerflowmap.shikiblog.link/api/denkiyoho.php?area=xxx
 東京エリアの、本日の電力使用状況CSVを取得したい：
 
 ```
-https://powerflowmap.shikiblog.link/api/denkiyoho.php?area=3
+https://shikiblog.sakura.ne.jp/powerflowmap/api/denkiyoho.php?area=3
 ```
 
 #### レスポンス
@@ -58,7 +58,7 @@ OCCTOが[広域予備率Web公表システム](https://web-kohyo.occto.or.jp/kks
 #### エンドポイント
 
 ```
-https://powerflowmap.shikiblog.link/api/koikiyobiritsu.php?jhSybt=xxx&tgtYmdFrom=xxx&tgtYmdTo=xxx
+https://shikiblog.sakura.ne.jp/powerflowmap/api/koikiyobiritsu.php?jhSybt=xxx&tgtYmdFrom=xxx&tgtYmdTo=xxx
 ```
 - メソッド: `GET`
 - クエリ:
@@ -79,7 +79,7 @@ https://powerflowmap.shikiblog.link/api/koikiyobiritsu.php?jhSybt=xxx&tgtYmdFrom
 2025/4/1～2025/4/7の、週間の広域予備率情報を取得したい：
 
 ```
-https://powerflowmap.shikiblog.link/api/koikiyobiritsu.php?jhSybt=01&tgtYmdFrom=20250401&tgtYmdTo=20250407
+https://shikiblog.sakura.ne.jp/powerflowmap/api/koikiyobiritsu.php?jhSybt=01&tgtYmdFrom=20250401&tgtYmdTo=20250407
 ```
 
 #### レスポンス
@@ -99,7 +99,7 @@ OCCTOが[系統情報サービス](https://occtonet3.occto.or.jp/public/dfw/RP11
 #### エンドポイント
 
 ```
-https://powerflowmap.shikiblog.link/api/chinaiKikanJisseki.php?area=xxx&date=xxx
+https://shikiblog.sakura.ne.jp/powerflowmap/api/chinaiKikanJisseki.php?area=xxx&date=xxx
 ```
 - メソッド: `GET`
 - クエリ:
@@ -111,7 +111,7 @@ https://powerflowmap.shikiblog.link/api/chinaiKikanJisseki.php?area=xxx&date=xxx
 東京エリアの、2025/4/1の地内基幹送電線潮流実績を取得したい：
 
 ```
-https://powerflowmap.shikiblog.link/api/chinaiKikanJisseki.php?area=3&date=20250401
+https://shikiblog.sakura.ne.jp/powerflowmap/api/chinaiKikanJisseki.php?area=3&date=20250401
 ```
 
 #### レスポンス
